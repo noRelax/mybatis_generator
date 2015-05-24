@@ -1,17 +1,17 @@
-package test.model;
+package com.joyouskim.db.dao;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class TestDtoExample {
+public class TestEntityExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public TestDtoExample() {
+    public TestEntityExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 

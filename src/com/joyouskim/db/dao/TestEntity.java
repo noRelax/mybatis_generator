@@ -1,8 +1,8 @@
-package test.model;
+package com.joyouskim.db.dao;
 
 import java.util.Date;
 
-public class TestDto {
+public class TestEntity {
     private Long id;
 
     private String name;
@@ -10,8 +10,6 @@ public class TestDto {
     private Integer age;
 
     private Date time;
-
-    private String note;
 
     public Long getId() {
         return id;
@@ -43,13 +41,5 @@ public class TestDto {
 
     public void setTime(Date time) {
         this.time = time;
-    }
-
-    public String getNote() {
-        return note;
-    }
-
-    public void setNote(String note) {
-        this.note = note == null ? null : note.trim();
     }
 }
