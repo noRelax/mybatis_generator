@@ -35,9 +35,10 @@
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
 		<!-- 要生成哪些表 -->
-		<table schema="test" tableName="test" domainObjectName="TestEntity"
-			modelType="flat">
-
-			</table>
+		<!-- <table schema="et_comment" tableName="EtComment" domainObjectName="EtComment"modelType="flat"></table> -->
+		<table tableName="et_comment" domainObjectName="EtComment" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+		<table tableName="et_exam_paper" domainObjectName="EtExamPaper" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>  
+	        <table tableName="et_field" domainObjectName="EtField" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>  
+	        <table tableName="et_group" domainObjectName="EtGroup" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 	</context>
 </generatorConfiguration>
